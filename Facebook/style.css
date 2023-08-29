@@ -1,0 +1,73 @@
+.icon-div {
+text-align: center;
+padding-top: 20px;
+}
+
+
+.facebookicon {
+width: 240px;
+text-align: center;
+}
+
+#password {
+    margin-top: 6px;
+
+}
+
+.facebook-head{
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-weight: lighter;
+    font-size: 15px;
+}
+
+.sub-div {
+    height: 255px;
+    width: 47%;
+    padding-top: 10px;
+    margin-left: 184px;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+
+.login-card {
+    
+text-align: center;
+}
+
+#username {
+    padding: 14px 16px;
+    width: 80%;
+    border: 1px solid #dddfe2;
+
+}
+#username:focus {
+    outline: none;
+} 
+#password:focus {
+    outline: none;
+}      
+
+#password {
+    padding: 14px 16px;
+    width: 80%;
+    border: 1px solid #dddfe2;
+
+}
+
+#login-button {
+    background-color: #1877f2;
+    border: 0px;
+    padding: 14px 16px;
+    width: 80%;
+    margin-top: 7px;
+    border-radius: 8px;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+.link {
+    font-family: Helvetica, Arial, sans-serif;
+    color: #1877f2;
+    text-decoration: none;
+    font-size: 14px;
+}
