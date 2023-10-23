@@ -20,3 +20,63 @@ right: 0px;
   }
 
 
+.header-div {
+    position: relative;
+    height: 500px;
+    width: 100%;
+    background-image: url('/Web-development/Musical-Website/assets/images/bg1.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+
+.site-header-h1 {
+    font-weight: 900;
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    top: 110px;
+    padding: 30px;
+    animation-name: headertext;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+@keyframes headertext {
+      from {left:0px}
+      to {left: 10px;}    
+}
+
+.header-para {
+    position: absolute;
+    top: 170px;
+    color: white;
+    width: 500px;
+    padding: 35px;
+    animation-name: headerpara;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+@keyframes headerpara {
+      from {left:0px}
+      to {left: 10px;}    
+}
+
+.register-btn {
+   position: absolute;
+   top: 270px;
+   border: 0px;
+   background-color: #e8631c;
+   padding: 15px;
+   color: white;
+   animation-name: button;
+   animation-duration: 2s;
+   animation-fill-mode: forwards;
+}
+
+@keyframes button {
+    from {left:0px}
+    to {left: 38px;}
+    
+}
+
+
