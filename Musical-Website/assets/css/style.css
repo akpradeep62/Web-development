@@ -1,0 +1,22 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background: grey;
+}
+.Logo {
+ height: 100px;
+ width: 100px;
+
+}
+.search-icon {
+position: absolute;
+right: 0px;
+}
+@media screen and (max-width: 600px) {
+    .search-icon {
+      position: static;
+      left: 0px;
+    }
+  }
+
+
