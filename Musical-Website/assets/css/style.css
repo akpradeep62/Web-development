@@ -24,8 +24,8 @@ right: 0px;
     position: relative;
     height: 500px;
     width: 100%;
-    background-image: url('/Web-development/Musical-Website/assets/images/bg1.jpg');
-    background-size: 100%;
+    background-image: url('/Web-development/Musical-Website/assets/images/bg3.png');
+    background-size: 100% 890px;
     background-repeat: no-repeat;
 }
 
@@ -35,7 +35,7 @@ right: 0px;
     color: white;
     font-size: 50px;
     position: absolute;
-    top: 110px;
+    top: 235px;
     padding: 30px;
     animation-name: headertext;
     animation-duration: 2s;
@@ -48,7 +48,7 @@ right: 0px;
 
 .header-para {
     position: absolute;
-    top: 170px;
+    top: 300px;
     color: white;
     width: 500px;
     padding: 35px;
@@ -64,7 +64,7 @@ right: 0px;
 
 .register-btn {
    position: absolute;
-   top: 270px;
+   top: 390px;
    border: 0px;
    background-color: #e8631c;
    padding: 15px;
@@ -80,4 +80,23 @@ right: 0px;
     
 }
 
+.div-dancetour {
+    height: 500px;
+    background-color: #e8631c;
+    width: 100%;
+}
 
+
+
+.text-dancediv {
+    text-align: center;
+    color: white;
+    padding: 50px 50px 0px 50px;
+}
+.text-paradance {
+    text-align: center;
+    width: 100%;
+}
+.dance-text {
+    font-weight: 900;
+}
