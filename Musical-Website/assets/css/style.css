@@ -100,3 +100,10 @@ right: 0px;
 .dance-text {
     font-weight: 900;
 }
+
+.danceimages {
+    height: 200px;
+    width: 200px;
+    background-color: #303030;
+    
+}
