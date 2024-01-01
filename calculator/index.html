@@ -1,0 +1,47 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>JS calculator</title>
+
+    <link rel="stylesheet" href="assets/index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="assets/index.js"></script>
+</head>
+<body>
+    <h1 class="calculator-head">calculator</h1>
+    <div class="container">
+        <input id="input" class="input_box" type="text">
+        <div class="btn-table">
+        <table style="width: 200px;margin: auto;">
+                <tr>
+                    <td><button onclick="nine()" id="btn9" class="btn">9</button></td>
+                    <td><button onclick="eight()" id='btn8' class="btn">8</button></td>
+                    <td><button onclick="seven()" class="btn">7</button></td>
+                    <td><button onclick="add()" class="btn">+</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="six()" class="btn">6</button></td>
+                    <td><button onclick="five()" class="btn">5</button></td>
+                    <td><button onclick="four()" class="btn">4</button></td>
+                    <td><button onclick="subs()" class="btn">-</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="three()" class="btn">3</button></td>
+                    <td><button onclick="two()" class="btn">2</button></td>
+                    <td><button onclick="one()" class="btn">1</button></td>
+                    <td><button onclick="mul()" class="btn">*</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="dot()" class="btn">.</button></td>
+                    <td><button onclick="zero()" class="btn">0</button></td>
+                    <td><button onclick="calc()" class="btn">=</button></td>
+                    <td><button onclick="del()" class="btn">C</button></td>
+                </tr>
+        </table>
+    </div>
+</body>
+</html>

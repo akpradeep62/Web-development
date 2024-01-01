@@ -1,0 +1,24 @@
+.calculator-head {
+    text-align: center;
+    color: blue;
+    padding: 50px;
+    font-size: 50px;
+}
+
+.container {
+    text-align: center;
+    width: 100%;
+}
+
+.input_box {
+    font-size: 30px;
+    border: solid blue;
+}
+
+.btn {
+    padding: 20px 45px;
+    
+}
+
+
+
