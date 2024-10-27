@@ -18,7 +18,8 @@ function runclock() {
         txt="AM"
     }
     clock.innerHTML=`${hrs}: ${mins} : ${secs} ${txt}`;
+    console.log(`${hrs}: ${mins} : ${secs} ${txt}`)
     
 }
 
-setInterval(runclock(),1000)
+setInterval(runclock,1000)
