@@ -30,7 +30,7 @@ body{
 h2{
     color: blueviolet;
     font-size: 30px;
-    font-weight: 500;
+   padding: 30px;
 
 }
 .frame {
